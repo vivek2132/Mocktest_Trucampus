@@ -11,21 +11,39 @@ export const questionBank: Record<ClassRange, Question[]> = {
   '2-4': [
     {
       id: 1,
-      question: 'What is 2 + 2?',
-      options: ['3', '4', '5', '6'],
-      correctAnswer: '4',
+      question: 'Which is the national animal of India?',
+      options: ['Lion', 'Tiger', 'Elephant', 'Cow'],
+      correctAnswer: 'Tiger',
     },
     {
       id: 2,
-      question: 'Which animal says "moo"?',
-      options: ['Cat', 'Dog', 'Cow', 'Sheep'],
-      correctAnswer: 'Cow',
+      question: 'Which festival is called the Festival of Lights?',
+      options: ['Diwali', 'Holi', 'Eid', 'Christmas'],
+      correctAnswer: 'Diwali',
     },
     {
       id: 3,
-      question: 'How many sides does a triangle have?',
-      options: ['2', '3', '4', '5'],
-      correctAnswer: '3',
+      question: 'Which Indian festival is celebrated with colors?',
+      options: ['Diwali', 'Holi', 'Pongal', 'Dussehra'],
+      correctAnswer: 'Holi',
+    },
+    {
+      id: 4,
+      question: 'Which planet is known as the Red Planet?',
+      options: ['Earth', 'Mars', 'Jupiter', 'Venus'],
+      correctAnswer: 'Mars',
+    },
+    {
+      id: 5,
+      question: 'What is the national flower of India?',
+      options: ['Rose', 'Sunflower', 'Lotus', 'Jasmine'],
+      correctAnswer: 'Lotus',
+    },
+    {
+      id: 6,
+      question: 'Which gas do humans need to breathe?',
+      options: ['Hydrogen', 'Carbon dioxide', 'Oxygen', 'Nitrogen'],
+      correctAnswer: 'Oxygen',
     },
   ],
   '5-7': [

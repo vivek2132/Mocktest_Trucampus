@@ -15,7 +15,7 @@ const fontCode = Source_Code_Pro({
 });
 
 export const metadata: Metadata = {
-  title: 'QuizWhiz',
+  title: 'TruCampus Mock Quiz',
   description: 'A modern quiz application.',
 };
 

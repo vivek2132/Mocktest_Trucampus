@@ -26,7 +26,7 @@ export default function QuizPage({ params }: { params: { classRange: string } })
         <div className="container mx-auto flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <Logo className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-bold">QuizWhiz</h1>
+            <h1 className="text-2xl font-bold">TruCampus Mock Quiz</h1>
           </Link>
           <Button variant="outline" asChild>
             <Link href="/">

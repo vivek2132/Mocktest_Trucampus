@@ -18,7 +18,7 @@ export default function Home() {
         <div className="container mx-auto flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <Logo className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-bold">QuizWhiz</h1>
+            <h1 className="text-2xl font-bold">TruCampus Mock Quiz</h1>
           </Link>
           <Link href="/admin">
             <Button variant="ghost" size="icon">
@@ -56,7 +56,7 @@ export default function Home() {
         </section>
       </main>
       <footer className="text-center p-4 text-muted-foreground text-sm">
-        <p>&copy; {new Date().getFullYear()} QuizWhiz. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} TruCampus Mock Quiz. All rights reserved.</p>
       </footer>
     </div>
   );

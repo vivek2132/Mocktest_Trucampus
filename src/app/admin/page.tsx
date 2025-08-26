@@ -12,7 +12,7 @@ export default function AdminPage() {
         <div className="container mx-auto flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <Logo className="h-8 w-8 text-primary" />
-            <h1 className="text-2xl font-bold">QuizWhiz - Admin Panel</h1>
+            <h1 className="text-2xl font-bold">TruCampus Mock Quiz - Admin Panel</h1>
           </Link>
           <Button variant="outline" asChild>
             <Link href="/">
@@ -41,7 +41,7 @@ export default function AdminPage() {
         </div>
       </main>
        <footer className="text-center p-4 text-muted-foreground text-sm">
-        <p>Admin tools for QuizWhiz</p>
+        <p>Admin tools for TruCampus Mock Quiz</p>
       </footer>
     </div>
   );

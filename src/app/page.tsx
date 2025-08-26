@@ -39,7 +39,7 @@ export default function Home() {
 
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {classRanges.map((item) => (
-            <Link href={`/register/${item.range}`} key={item.range} className="group">
+            <Link href={`/quiz/${item.range}`} key={item.range} className="group">
               <Card className="hover:shadow-lg hover:-translate-y-1 transition-transform duration-300 h-full flex flex-col">
                 <CardHeader className="flex-1">
                   <CardTitle className="text-2xl">Class {item.range}</CardTitle>

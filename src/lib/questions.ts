@@ -219,7 +219,7 @@ export const questionBank: Record<ClassRange, Question[]> = {
     {
       id: 29,
       question: 'If TODAY is coded as UPEBZ, then BOOK is coded as?',
-      options: ['CPLL', 'DOOL', 'AONL', 'BPPL'],
+      options: ['CPPL', 'DOOL', 'AONL', 'BPPL'],
       correctAnswer: 'CPPL',
     },
     {
@@ -592,21 +592,140 @@ export const questionBank: Record<ClassRange, Question[]> = {
   '8-10': [
     {
       id: 1,
-      question: 'What is the chemical symbol for water?',
-      options: ['O2', 'CO2', 'H2O', 'NaCl'],
-      correctAnswer: 'H2O',
+      question: 'Which Mughal ruler built Fatehpur Sikri?',
+      options: ['Akbar', 'Humayun', 'Shah Jahan', 'Jahangir'],
+      correctAnswer: 'Akbar',
     },
     {
       id: 2,
-      question: 'Who wrote "Romeo and Juliet"?',
-      options: ['Charles Dickens', 'William Shakespeare', 'Jane Austen', 'Mark Twain'],
-      correctAnswer: 'William Shakespeare',
+      question: 'Which country hosted the COP28 climate conference in 2023?',
+      options: ['India', 'UAE', 'USA', 'UK'],
+      correctAnswer: 'UAE',
     },
     {
       id: 3,
-      question: 'What is the value of Pi (to two decimal places)?',
-      options: ['3.14', '3.15', '3.16', '3.12'],
-      correctAnswer: '3.14',
+      question: 'India’s first bullet train project is between which two cities?',
+      options: [
+        'Delhi and Jaipur',
+        'Mumbai and Ahmedabad',
+        'Chennai and Bengaluru',
+        'Kolkata and Patna',
+      ],
+      correctAnswer: 'Mumbai and Ahmedabad',
+    },
+    {
+      id: 4,
+      question: 'The Meenakshi Temple is located in?',
+      options: ['Tamil Nadu', 'Kerala', 'Maharashtra', 'Andhra Pradesh'],
+      correctAnswer: 'Tamil Nadu',
+    },
+    {
+      id: 5,
+      question:
+        "Which law states that 'For every action there is an equal and opposite reaction'?",
+      options: [
+        'Newton’s First Law',
+        'Newton’s Second Law',
+        'Newton’s Third Law',
+        'Law of Gravitation',
+      ],
+      correctAnswer: 'Newton’s Third Law',
+    },
+    {
+      id: 6,
+      question: 'Who was the founder of the Maurya Empire?',
+      options: ['Chandragupta Maurya', 'Ashoka', 'Bindusara', 'Bimbisara'],
+      correctAnswer: 'Chandragupta Maurya',
+    },
+    {
+      id: 7,
+      question:
+        'If the sum of two numbers is 60 and one number is twice the other, what are the numbers?',
+      options: ['20 and 40', '15 and 45', '10 and 50', '25 and 35'],
+      correctAnswer: '20 and 40',
+    },
+    {
+      id: 8,
+      question: 'Which metal is most reactive?',
+      options: ['Iron', 'Sodium', 'Copper', 'Gold'],
+      correctAnswer: 'Sodium',
+    },
+    {
+      id: 9,
+      question: 'India successfully landed Chandrayaan-3 on which part of the Moon?',
+      options: ['Equator', 'South Pole', 'North Pole', 'Sea of Tranquility'],
+      correctAnswer: 'South Pole',
+    },
+    {
+      id: 10,
+      question: 'If 5 men take 20 days to build a wall, how many days will 10 men take?',
+      options: ['15', '20', '10', '5'],
+      correctAnswer: '10',
+    },
+    {
+      id: 11,
+      question: 'Which is odd one out: Pentagon, Hexagon, Octagon, Circle?',
+      options: ['Pentagon', 'Hexagon', 'Octagon', 'Circle'],
+      correctAnswer: 'Circle',
+    },
+    {
+      id: 12,
+      question: 'Which text is considered the first grammar of Sanskrit?',
+      options: [
+        'Rigveda',
+        'Ashtadhyayi by Panini',
+        'Arthashastra',
+        'Mahabharata',
+      ],
+      correctAnswer: 'Ashtadhyayi by Panini',
+    },
+    {
+      id: 13,
+      question: 'The SI unit of electric current is?',
+      options: ['Watt', 'Ampere', 'Volt', 'Ohm'],
+      correctAnswer: 'Ampere',
+    },
+    {
+      id: 14,
+      question: 'Which gas causes the greenhouse effect the most?',
+      options: ['Oxygen', 'Nitrogen', 'Carbon dioxide', 'Argon'],
+      correctAnswer: 'Carbon dioxide',
+    },
+    {
+      id: 15,
+      question: 'Who won the Nobel Peace Prize in 2024?',
+      options: ['Greta Thunberg', 'Narges Mohammadi', 'Malala Yousafzai', 'Abiy Ahmed'],
+      correctAnswer: 'Narges Mohammadi',
+    },
+    {
+      id: 16,
+      question: "Which part of the cell is known as the 'powerhouse'?",
+      options: ['Nucleus', 'Ribosome', 'Mitochondria', 'Cytoplasm'],
+      correctAnswer: 'Mitochondria',
+    },
+    {
+      id: 17,
+      question: 'Who built the Qutub Minar?',
+      options: ['Akbar', 'Qutub-ud-din Aibak', 'Shah Jahan', 'Aurangzeb'],
+      correctAnswer: 'Qutub-ud-din Aibak',
+    },
+    {
+      id: 18,
+      question: 'Find the missing number: 7, 14, 28, 56, __ ?',
+      options: ['84', '100', '112', '64'],
+      correctAnswer: '112',
+    },
+    {
+      id: 19,
+      question: 'Who is the current Chief Justice of India (2025)?',
+      options: ['N.V. Ramana', 'D.Y. Chandrachud', 'Ranjan Gogoi', 'U.U. Lalit'],
+      correctAnswer: 'D.Y. Chandrachud',
+    },
+    {
+      id: 20,
+      question: 'If EARTH is coded as UBGZI, then MOON is coded as?',
+      options: ['NPPM', 'NLLO', 'ZBBM', 'ZOOM'],
+      correctAnswer: 'ZBBM',
     },
   ],
   '11-12': [
